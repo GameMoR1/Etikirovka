@@ -1,0 +1,100 @@
+;home_x
+G28 X0 
+;acceleration_b
+M201 B2000
+G90
+;clamp_b,feedrate_b
+G0 B5 F2000
+;rotate_a
+G0 A5
+;start_z,start_y,feedrate_all 
+G0 Z98 Y14 F3000
+G91
+;start_x,feedrate_x
+G0 X2.9 F700
+;clamp_y
+G0 Y11
+;end_z,end_a,feedrate_all
+G0 Z-40 A-1 F3000
+;home_y,home_b,home_z,home_a
+G28 Y0 Z0 A0 B0 
+;home_x
+G28 X0 
+;acceleration_b
+M201 B2000
+G90
+;clamp_b,feedrate_b
+G0 B5 F2000
+;rotate_a
+G0 A5
+;start_z,start_y,feedrate_all 
+G0 Z98 Y14 F3000
+G91
+;start_x,feedrate_x
+G0 X2.9 F700
+;clamp_y
+G0 Y11
+;end_z,end_a,feedrate_all
+G0 Z-40 A-1 F3000
+;home_y,home_b,home_z,home_a
+G28 Y0 Z0 A0 B0 
+;home_x
+G28 X0 
+;acceleration_b
+M201 B2000
+G90
+;clamp_b,feedrate_b
+G0 B5 F2000
+;rotate_a
+G0 A5
+;start_z,start_y,feedrate_all 
+G0 Z98 Y14 F3000
+G91
+;start_x,feedrate_x
+G0 X2.9 F700
+;clamp_y
+G0 Y11
+;end_z,end_a,feedrate_all
+G0 Z-40 A-1 F3000
+;home_y,home_b,home_z,home_a
+G28 Y0 Z0 A0 B0 
+;home_x
+G28 X0 
+;acceleration_b
+M201 B2000
+G90
+;clamp_b,feedrate_b
+G0 B5 F2000
+;rotate_a
+G0 A5
+;start_z,start_y,feedrate_all 
+G0 Z98 Y14 F3000
+G91
+;start_x,feedrate_x
+G0 X2.9 F700
+;clamp_y
+G0 Y11
+;end_z,end_a,feedrate_all
+G0 Z-40 A-1 F3000
+;home_y,home_b,home_z,home_a
+G28 Y0 Z0 A0 B0 
+;home_x
+G28 X0 
+;acceleration_b
+M201 B2000
+G90
+;clamp_b,feedrate_b
+G0 B5 F2000
+;rotate_a
+G0 A5
+;start_z,start_y,feedrate_all 
+G0 Z98 Y14 F3000
+G91
+;start_x,feedrate_x
+G0 X2.9 F700
+;clamp_y
+G0 Y11
+;end_z,end_a,feedrate_all
+G0 Z-40 A-1 F3000
+;home_y,home_b,home_z,home_a
+G28 Y0 Z0 A0 B0 
